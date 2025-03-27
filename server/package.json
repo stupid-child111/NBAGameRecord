@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "1. 启动一个koa服务 2. 引入了@koa/router 3. 解决跨域问题 @koa/cors 4. 借助@koa/bodyparser 辅助koa解析post请求传递的参数",
+  "dependencies": {
+    "@koa/bodyparser": "^5.1.1",
+    "@koa/cors": "^5.0.0",
+    "@koa/router": "^12.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.15.3",
+    "mysql2": "^3.14.0"
+  }
+}
